@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.02571210.chunk.css",
+    "main.js": "/static/js/main.79d2270b.chunk.js",
+    "main.js.map": "/static/js/main.79d2270b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.01051a28.js",
+    "runtime-main.js.map": "/static/js/runtime-main.01051a28.js.map",
+    "static/js/2.e01542f2.chunk.js": "/static/js/2.e01542f2.chunk.js",
+    "static/js/2.e01542f2.chunk.js.map": "/static/js/2.e01542f2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2c1e7a03152e0b78fa91f736392922ad.js": "/precache-manifest.2c1e7a03152e0b78fa91f736392922ad.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.02571210.chunk.css.map": "/static/css/main.02571210.chunk.css.map",
+    "static/js/2.e01542f2.chunk.js.LICENSE.txt": "/static/js/2.e01542f2.chunk.js.LICENSE.txt",
+    "static/media/Daniel.png": "/static/media/Daniel.3b24b1f3.png",
+    "static/media/MailImage.png": "/static/media/MailImage.a596e16e.png",
+    "static/media/Michelle_pic.png": "/static/media/Michelle_pic.1ae94751.png",
+    "static/media/lightBlueBackground.png": "/static/media/lightBlueBackground.4e44b231.png",
+    "static/media/mainpage-back-drop.png": "/static/media/mainpage-back-drop.48595e85.png",
+    "static/media/mainpage-hangout.png": "/static/media/mainpage-hangout.33e16726.png",
+    "static/media/podcastBackground.png": "/static/media/podcastBackground.db08dd2a.png",
+    "static/media/purpleBackground.png": "/static/media/purpleBackground.2a51fac6.png",
+    "static/media/sharfuz.png": "/static/media/sharfuz.61ad48d9.png",
+    "static/media/sid.png": "/static/media/sid.51a28c59.png",
+    "static/media/uncorkedLogo.png": "/static/media/uncorkedLogo.8963e4d3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01051a28.js",
+    "static/js/2.e01542f2.chunk.js",
+    "static/css/main.02571210.chunk.css",
+    "static/js/main.79d2270b.chunk.js"
+  ]
+}
