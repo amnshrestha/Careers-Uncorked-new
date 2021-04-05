@@ -1,30 +1,16 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import Box from '@material-ui/core/Box';
-import Container from '@material-ui/core/Container';
+import {Navbar, Nav} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
+import logo from '../img/uncorkedLogo.png';
+
 
 
 const useStyles = makeStyles((theme) => ({
-    root: {
-      flexGrow: 1,
-    },
-    menuButton: {
-      marginRight: theme.spacing(2),
-    },
-    title: {
-      flexGrow: 1,
-    },
-    appBarDesign:{
-        // background:'blue',
+    wasteSpace:{
+      height:'90px',
     }
   }));
 
@@ -32,25 +18,29 @@ export default function NavigationBar() {
     const classes = useStyles();
 
   return (
-    <React.Fragment>
-      <CssBaseline />
-        <AppBar className={classes.appBarDesign}>
-        <Toolbar>
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" className={classes.title}>
-            News
-          </Typography>
-          <Button color="inherit">Login</Button>
-        </Toolbar>
-          
-        </AppBar>
-      <Toolbar />
-      <Container>
-        <Box my={1}>
-        </Box>
-      </Container>
-    </React.Fragment>
+    <>
+    <Navbar bg="light" expand="lg" fixed="top">
+      <Navbar.Brand href="#home"> 
+        <img
+          src={logo}
+          width="150"
+          className="d-inline-block align-top"
+          alt="React Bootstrap logo"
+        />
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+        <Nav>
+          <Nav.Link href="#">Stories</Nav.Link>
+          <Nav.Link href="#">Podcast</Nav.Link>
+          <Nav.Link href="#">Events</Nav.Link>
+          <Nav.Link href="#">Guests</Nav.Link>
+          <Nav.Link href="#">Blogs</Nav.Link>
+          <Nav.Link href="#">Behind the Curtains</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
+    <div className={classes.wasteSpace}></div>
+    </>
   );
 }
